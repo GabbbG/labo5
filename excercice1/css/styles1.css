@@ -5,9 +5,9 @@
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, 150px);
     grid-template-areas: 
-        "f h e"
-        "i c a"
-        "b d g";
+    "f h e"
+    "i c a"
+    "b d g";
 }
 .piece1{
     grid-area: a;

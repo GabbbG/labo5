@@ -1,0 +1,51 @@
+.puzzle{
+    display: grid;
+    max-width: 400px;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    grid-template-areas: 
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p";
+}
+.piece-l{
+
+}
+.piece-s{
+
+}
+.piece-h{
+
+}
+#piece1{
+
+}
+#piece2{
+    
+}
+#piece3{
+    
+}
+#piece4{
+    
+}
+#piece5{
+    
+}
+#piece6{
+    
+}
+#piece7{
+    
+}
+#piece8{
+    
+}
+#piece9{
+    
+}
+#piece10{
+    
+}
