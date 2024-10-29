@@ -1,7 +1,7 @@
 .puzzle{
     display: grid;
     max-width: 400px;
-    margin: 20px auto;
+    margin: 20px;
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, 150px);
     grid-template-areas: 
@@ -9,30 +9,30 @@
     "i c a"
     "b d g";
 }
-.piece1{
+#piece1{
     grid-area: a;
 }
-.piece2{
+#piece2{
     grid-area: b;
 }
-.piece3{
+#piece3{
     grid-area: c;
 }
-.piece4{
+#piece4{
     grid-area: d;
 }
-.piece5{
+#piece5{
     grid-area: e;
 }
-.piece6{
+#piece6{
     grid-area: f;
 }
-.piece7{
+#piece7{
     grid-area: g;
 }
-.piece8{
+#piece8{
     grid-area: h;
 }
-.piece9{
+#piece9{
     grid-area: i;
 }
