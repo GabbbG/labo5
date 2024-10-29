@@ -15,7 +15,7 @@ div:nth-child(even){
     background-color: aquamarine;
 }
 
-.balls{
+.div{
     background-color: pink;
     border-collapse: collapse;
     border: solid black 1px;
