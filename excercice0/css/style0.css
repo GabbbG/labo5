@@ -1,0 +1,41 @@
+#conteneur1{
+    
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 750px;
+    height: 20%;
+    text-align: center;
+    margin: 30px auto;
+     
+
+}
+div:nth-child(even){
+    background-color: aquamarine;
+}
+
+.balls{
+    background-color: pink;
+    border-collapse: collapse;
+    border: solid black 1px;
+}
+
+#conteneur2{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr 3fr;
+    max-width: 750px;
+    height: 20%;
+    text-align: center;
+    margin: 30px auto;
+}
+#conteneur3{
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 3fr;
+    max-width: 750px;
+    height: 20%;
+    text-align: center;
+    margin: 30px auto;
+    grid-gap: 2px;
+}
